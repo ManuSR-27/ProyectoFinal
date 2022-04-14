@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.drogueria.LoginFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_login" >
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_registroFragment"
+            app:destination="@id/registroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.drogueria.MenuFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_menu" >
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_pqrFragment"
+            app:destination="@id/pqrFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_infoPedidoFragment"
+            app:destination="@id/infoPedidoFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_inventarioFragment"
+            app:destination="@id/inventarioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inventarioFragment"
+        android:name="com.drogueria.InventarioFragment"
+        android:label="fragment_inventario"
+        tools:layout="@layout/fragment_inventario" >
+        <action
+            android:id="@+id/action_inventarioFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoPedidoFragment"
+        android:name="com.drogueria.InfoPedidoFragment"
+        android:label="fragment_info_pedido"
+        tools:layout="@layout/fragment_info_pedido" >
+        <action
+            android:id="@+id/action_infoPedidoFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pqrFragment"
+        android:name="com.drogueria.PqrFragment"
+        android:label="fragment_pqr"
+        tools:layout="@layout/fragment_pqr" >
+        <action
+            android:id="@+id/action_pqrFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.drogueria.RegistroFragment"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" >
+        <action
+            android:id="@+id/action_registroFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>

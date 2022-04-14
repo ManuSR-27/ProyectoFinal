@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Drogueria</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Drogueria</string>
+    <string name="second_fragment_label">Drogueria</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="menu">Menú</string>
+    <string name="Inventarios">Inventarios</string>
+    <string name="Domicilios">Domicilios</string>
+
+    <!-- Textos formulario PQR -->
+    <string name="SugerenciasQuejas">Sugerencias y Quejas</string>
+
+    <string name="InfoUsuarioTitulo">Información del usuario</string>
+    <string name="Nombres">Nombres</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Identificacion">Identificacion</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Barrio">Barrio</string>
+    <string name="Email">Email</string>
+    <string name="InformacionRecursoTitulo">Informacion del Recurso</string>
+    <string name="TipoRecurso">Tipo de recurso</string>
+    <string name="Fecha">Fecha</string>
+    <string name="SituacionPresentada">Situacion presentada</string>
+    <string name="Guardar">Guardar</string>
+
+
+    <!-- Textos formulario Domicilios-->
+    <string name="TituloPedido">Pedidos</string>
+    <string name="NombreProductoDcomicilio">NombreProducto</string>
+    <string name="ConcentracionPedido">Concentracion</string>
+    <string name="PresentacionPedido">Presentacion</string>
+    <string name="CodigoProdcutoPedido">Codigo del producto</string>
+    <string name="ValorUnitarioPedido">Valor Unitario</string>
+    <string name="CantidadPedido">Cantidad</string>
+    <string name="BtnConsultar">Consultar</string>
+    <string name="BtnContinuar">Continuar</string>
+    <string name="BtnFinalizar">Finalizar Pedido</string>
+    <string name="TituloEntrega">Entrega</string>
+    <string name="NombresUsuario">Nombres usuario</string>
+    <string name="ApellidosUsuario">Apelldios usuario</string>
+    <string name="IdentificacionUsuario">Identificacion Usuario</string>
+    <string name="DireccionUsuario">Direccion</string>
+    <string name="BarrioUsuario">Barrio</string>
+    <string name="TelefonoUsuario">Telefono</string>
+    <string name="Domiciliario">Domiciliario</string>
+
+
+    <!-- Textos formulario Registro -->
+    <string name="TituloRegistro">Eres nuevo? Regístrate</string>
+    <string name="NombreRegistro">Nombre</string>
+    <string name="ApellidoRegistro">Apellido</string>
+    <string name="CedulaRegistro">No Identificacion</string>
+    <string name="NombreUsuarioRegistro">Nombre Usuario Registro</string>
+    <string name="BtnRegistrarse">Regístrate</string>
+
+
+    <!-- Textos formulario Inventario  -->
+    <string name="TituloInventario">Realizar Inventario</string>
+    <string name="FechaRealización">Fecha Realización</string>
+    <string name="NoEstante">Numero Estante</string>
+    <string name="CodigoProducto">Codigo Producto</string>
+    <string name="NombreProducto">NombreProducto</string>
+    <string name="Concentracion">Concentracion</string>
+    <string name="Presentacion">Presentacion</string>
+    <string name="CantidadDisponible">Cantidad Disponible</string>
+    <string name="ValorUnitario">Valor Unitario</string>
+    <string name="FechaVencimiento">FechaVencimiento</string>
+
+
+    <string name="welcome">Bienvenido</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+</resources>

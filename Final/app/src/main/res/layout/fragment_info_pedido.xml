@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoPedidoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="309dp"
+            android:layout_height="485dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/btnfinalizacionPedido"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTituloPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/TituloPedido"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/etNombreProductoDomicilio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="@string/NombreProductoDcomicilio"
+                        android:inputType="textPersonName"
+                        android:maxLength="10" />
+
+                    <EditText
+                        android:id="@+id/etConcentracionPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="0123456789."
+                        android:hint="@string/ConcentracionPedido"
+                        android:inputType="textPersonName"
+                        android:maxLength="10" />
+
+                    <EditText
+                        android:id="@+id/etPresentacionPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/PresentacionPedido"
+                        android:inputType="number"
+                        android:maxLength="10" />
+
+                    <EditText
+                        android:id="@+id/etCodProductoPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="0123456789."
+                        android:hint="@string/CodigoProdcutoPedido"
+                        android:inputType="textPersonName"
+                        android:maxLength="10" />
+
+                    <EditText
+                        android:id="@+id/etValorUnitarioPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="0123456789."
+                        android:hint="@string/ValorUnitarioPedido"
+                        android:inputType="textPersonName"
+                        android:maxLength="20" />
+
+                    <EditText
+                        android:id="@+id/etCantidadPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="0123456789."
+                        android:hint="@string/CantidadPedido"
+                        android:inputType="number"
+                        android:maxLength="2" />
+
+                    <TextView
+                        android:id="@+id/tituloEntrega"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/TituloEntrega"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/etNombrePedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="@string/NombresUsuario"
+                        android:inputType="textPersonName"
+                        android:maxLength="15" />
+
+                    <EditText
+                        android:id="@+id/etApellidosPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="@string/ApellidosUsuario"
+                        android:inputType="textPersonName"
+                        android:maxLength="15" />
+
+                    <EditText
+                        android:id="@+id/etIdentificacionPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="0123456789."
+                        android:hint="@string/IdentificacionUsuario"
+                        android:inputType="number"
+                        android:maxLength="15" />
+
+                    <EditText
+                        android:id="@+id/etDireccionPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="@string/DireccionUsuario"
+                        android:inputType="textPersonName"
+                        android:maxLength="20" />
+
+                    <EditText
+                        android:id="@+id/etBarrioPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="@string/BarrioUsuario"
+                        android:inputType="textPersonName"
+                        android:maxLength="10" />
+
+                    <EditText
+                        android:id="@+id/etTelefonoPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="0123456789."
+                        android:hint="@string/TelefonoUsuario"
+                        android:inputType="number"
+                        android:maxLength="10" />
+
+                    <EditText
+                        android:id="@+id/etDomiciliarioPedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="@string/Domiciliario"
+                        android:inputType="textPersonName"
+                        android:maxLength="10" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnfinalizacionPedido"
+            android:layout_width="272dp"
+            android:layout_height="53dp"
+            android:text="@string/BtnFinalizar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.952" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
